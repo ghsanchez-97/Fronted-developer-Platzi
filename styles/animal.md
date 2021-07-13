@@ -1,0 +1,4 @@
+🐶 perrito
+🐼 pandora
+🐰 conejo
+🐮 vaca

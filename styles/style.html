@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Styles</title>
-</head>
-<style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
     /*Dar estilo de a la etiqueta p*/
-    p{
-        color: red;
+    p::first-letter {
+      color: red;
+      font-size: 20px;
     }
-</style>
-<body>
+  </style>
+  <body>
     <main>
-        <p>Hola Mundo Feliz</p>
-        <p>Hola Mundo</p>
+      <p>Hola Mundo Feliz</p>
+      <p>Hola Mundo</p>
+      <br />
+
+      <div class="animal">
+        <p>🐶 perrito</p>
+        <p>🐼 pandora</p>
+        <p>🐰 conejo</p>
+        <p>🐮 vaca</p>
+      </div>
     </main>
-</body>
+  </body>
 </html>

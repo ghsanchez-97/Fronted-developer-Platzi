@@ -1,0 +1,12 @@
+/* .animal p:first-child{
+    color: orange;
+}
+.animal p:last-child{
+    color: blue;
+} */
+.animal p:nth-child(2n){
+    color: darkgreen;
+}
+.animal p:nth-child(2n+1){
+    color: darkblue;
+}
